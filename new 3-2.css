@@ -1,0 +1,282 @@
+<Общий контейнер>
+    <Левая колонка> 
+        <p>Превью новости</p>
+        <span>дата</span>
+        <p>Превью новости</p>
+        <span>дата</span> 
+         <Кнопка>   
+     </Левая колонка>
+<Правая колонка>
+        <картинка></картинка>
+        <контейнер для кнопок> <кнопка 1> <кнопка 2></контейнер для кнопок>
+</Правая колонка>
+<Общий контейнер>
+
+
+<div class="index-content">
+		 <div class="index-content-left">
+		 <h2 class="index-content-title-1">Новости</h2>
+		 <div class="news-preview">
+		 <div class="news-preview-1">
+		  <p>Нас наконец завезли Ягермайстер! Теперь вы сможете </br>пропускать стаканчик во время стрижки</p>
+		  </div>
+			 <div class="datetime">
+			 <time id="datetime-1">11 января</time>
+			 </div>
+		 <div class="news-preview-2">
+		  <p>В нашей команде пополнение, Борис "Бритва" Стригунец, </br>обладатель множества титулов и наград пополнил </br>наши стройные ряды</p>
+		</div>
+			<div class="datetime">
+			 <time id="datetime-2">18 января</time>
+			 </div>
+		 </div>
+		 <button class="btn" href="news.html">Все новости</button>
+		 </div>
+		 <div class="index-content-right">
+		  <h2 class="index-content-title-2">Фотогалерея</h2>
+		  <div class="gallery">
+		  <figure class="gallery-content">
+		   <img src="img/Layer 21.jpg" width="286" height="164" alt="Интерьер"></figure>
+		 <div class="fixed-button-right">
+		  <div class="btn gallery-prev"> <a href="#">Назад</a></div>
+		  <div class="btn gallery-next"> <a href="#">Вперед</a></div>
+		 </div>
+		 </div>
+		 </div>
+		 </div>
+body{
+ /*margin: 0; 
+ padding: 0;*/
+ min-width: 960px;
+ font-weight: 700;
+ font-size: 14px;
+ line-height: 24px;
+ font-family: "PT Sans Narrow", Arial, sans-serif;
+ color:#ffffff;
+ text-transform: uppercase;
+ /*background-image: url("barbershop-index.jpg");*/
+ background-color: #000000;
+ background-image: url("img/background.jpg");
+ background-repeat: no-repeat;
+ background-position: center-top;
+ background-size: 1122px auto;
+}
+
+.clearfix:: after{
+ content: "";
+ display: table;
+ clear: both;
+ height: 20px;
+ background-color: white;
+ background-image: linear-gradient (-45deg, white 45%, black 50%,
+ white 55%);
+ background-size: 20px;
+}
+
+.main-header{
+ height: 72px;
+ margin-bottom: 60px;
+ /*background-color: #000000;*/
+ width: 100%;
+ }
+
+ .container{
+ width: 940px;
+ margin: 0 auto;
+ padding: 0 10px;
+ height: 72px;
+ background-color: orange;
+ }
+  
+.main-navigation {
+ float: left;
+ font-size: 14px;
+ line-height: 24px;
+ color:#ffffff;
+ background-color: blue;
+ /*background-color: #000000;*/
+ width: 780px;
+ min-height: 72px;
+ height: 72px;
+ margin-left: auto;
+ margin-right: auto;
+ }
+
+.user-block{
+ float: right;
+ max-width: 140px;
+ min-height: 70px;
+ background-color: blue;
+}
+
+/*a{
+ text-decoration: none;
+}*/
+
+/*.container,
+.main-footer {
+ width: 950px;
+ margin-left: auto;
+ margin-right: auto;
+
+ }*/
+ 
+ /*.site-navigation,
+.user-navigation {
+ list-style: none;
+ padding: 25px 20px;
+ margin: 0;
+ display: inline-block;
+  }*/
+
+.login{
+display: inline-block;
+padding: 25px 20px;
+padding-left: 50px;
+
+font-size: 16px;
+line-height: 20px;
+vertical-align: top;
+color: #ffffff;
+text-decoration: none;
+}
+.login::before {
+ content: "";
+ position: absolute;
+ top: 28px;
+ left: 20px;
+  
+ width: 18px;
+ height: 18px;
+ 
+ background: transparent url("img/spite.png")no-repeat;
+ background-position: -1px -15px;
+ opacity: 0.3;
+}
+.login:hover::before {
+ opacity: 1;
+}
+.index-logo{
+ width: 368 px;
+ min-height: 204px;
+ margin-left: 0;
+ margin-right: auto;
+ margin-bottom: 25px;
+}
+
+
+ 
+/*.site-navigation a,
+.user-navigation a {
+  color:#ffffff;
+}
+
+.site-navigation li,
+.user-navigation li {
+ display: inline;
+ margin-right: 30px;
+ }
+
+.site-navigation{
+ vertical-align: middle;
+ float: left;
+ margin: 0;
+   }
+
+.user-navigation{
+ float: right;
+ margin-right: 0;
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus,
+.user-navigation a:hover,
+.user-navigation a:focus {
+  background-color: #242424;
+}
+
+#logo-main{
+background-image: url("img/main-logo.png");
+background-repeat: no-repeat;
+width: 371px;
+height: 155px;
+margin: auto;
+margin-top: 60px;
+}
+
+.visually-hidden{
+ display: none;
+}
+
+ 
+.features-list{
+ list-style: none;*/
+ /*margin: 0;
+ padding: 0;
+ float: left;
+ display: inline-block;*/
+ }
+ 
+.features {
+margin-bottom: 80px;
+}
+
+.feature-item{ 
+ float: left;
+ width: 300px;
+ min-height: 175px;
+ margin-right: 20px;
+ /*text-align: center;
+ font-size: 30px;
+ line-height: 42px;
+ text-align: center;*/
+}
+
+.feature-item: last-child{
+ margin-right: 0;
+}
+ 
+ .index-content{
+
+	 
+ } 
+
+/*.feature-item h3{
+ font-size: 30px;
+ line-height: 42px;
+ /*width: 291.51px;
+ height: 78.68px;
+ vertical-align: center;
+ margin-right: 60px;
+ padding: 60px;*/
+}
+.footer-social p {
+	margin: 0;
+	margin-bottom: 15px;
+}
+.social-btn {
+display: inline-block;
+width: 43px;
+height: 43px;
+margin: 0 2 px;
+font-size: 0;
+vertical-align: top;
+text-decoration: none;
+background: #000000 url ("img/sprite.png") no-repeat center;
+}
+
+.social-btn: hover{
+background-color: #ffffff;
+}
+
+.social-btn-vk{
+background-position: 9px -447px;
+}
+
+.social-btn-fb{
+background-position: 15px -171px;
+}
+
+.social-btn-vk{
+background-position: 12px -313px;
+}
